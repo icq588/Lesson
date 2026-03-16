@@ -6,7 +6,7 @@
 
     <modelVersion>4.0.0</modelVersion>
 
-    <!-- Информация о проекте -->
+
     <groupId>org.example</groupId>
     <artifactId>myproject</artifactId>
     <version>1.0-SNAPSHOT</version>
@@ -17,9 +17,9 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
-    <!-- Зависимости для тестирования -->
+
     <dependencies>
-        <!-- JUnit 5 -->
+
         <dependency>
             <groupId>org.junit.jupiter</groupId>
             <artifactId>junit-jupiter</artifactId>
@@ -27,7 +27,7 @@
             <scope>test</scope>
         </dependency>
 
-        <!-- TestNG (если хочешь оставлять) -->
+
         <dependency>
             <groupId>org.testng</groupId>
             <artifactId>testng</artifactId>
@@ -36,7 +36,7 @@
         </dependency>
     </dependencies>
 
-    <!-- Surefire для запуска JUnit 5 -->
+
     <build>
         <plugins>
             <plugin>
